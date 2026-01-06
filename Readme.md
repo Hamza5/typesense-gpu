@@ -45,6 +45,17 @@ docker-compose up -d
 
 This command will build and run the Typesense container with GPU support.
 
+## GitHub Actions
+
+This repository includes a GitHub Actions workflow to manually build and push the Docker image.
+
+To trigger the workflow manually:
+1. Go to the "Actions" tab in the GitHub repository.
+2. Select the "Build and Push Docker Image" workflow.
+3. Click "Run workflow".
+4. Enter the desired `Typesense Version` and `CUDA Version` (or use the defaults).
+5. Click "Run workflow".
+
 ## Modifying Versions
 
 You can specify different versions of Typesense and CUDA by modifying the `.env` file in the repository. Create a `.env` file in the root directory if it doesn't exist and add the following content:
