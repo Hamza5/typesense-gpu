@@ -36,4 +36,4 @@ jobs:
           build-args: |
             TYPESENSE_VERSION=${{ inputs.typesense_version }}
             CUDA_VERSION=${{ inputs.cuda_version }}
-          tags: 0x4139/typesense-gpu:${{ inputs.typesense_version }}-cuda${{ inputs.cuda_version }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/typesense-gpu:${{ inputs.typesense_version }}-cuda${{ inputs.cuda_version }}
