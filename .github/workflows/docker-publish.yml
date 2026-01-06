@@ -6,7 +6,7 @@ on:
       typesense_version:
         description: 'Typesense Version'
         required: true
-        default: '28.0'
+        default: '29.0'
       cuda_version:
         description: 'CUDA Version'
         required: true
