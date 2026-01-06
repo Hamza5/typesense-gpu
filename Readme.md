@@ -48,7 +48,9 @@ This command will build and run the Typesense container with GPU support.
 
 ## GitHub Actions
 
-This repository includes a GitHub Actions workflow to manually build and push the Docker image.
+This repository includes a GitHub Actions workflow to manually build and push the Docker image. It requires two secret variables (configurable from Settings > Secrets and Variables > Actions > Repository secrets) to be set up:
+- `DOCKERHUB_USERNAME`: your username on DockerHub.
+- `DOCKERHUB_TOKEN`: your access token from DockerHub.
 
 To trigger the workflow manually:
 1. Go to the "Actions" tab in the GitHub repository.
