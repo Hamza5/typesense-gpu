@@ -7,6 +7,7 @@ A Docker setup for running [Typesense](https://typesense.org/) with GPU support 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Service](#running-the-service)
+- [GitHub Actions](#github-actions)
 - [Modifying Versions](#modifying-versions)
 - [Environment Variables](#environment-variables)
 - [GPU Requirements](#gpu-requirements)
@@ -44,6 +45,17 @@ docker-compose up -d
 ```
 
 This command will build and run the Typesense container with GPU support.
+
+## GitHub Actions
+
+This repository includes a GitHub Actions workflow to manually build and push the Docker image.
+
+To trigger the workflow manually:
+1. Go to the "Actions" tab in the GitHub repository.
+2. Select the "Build and Push Docker Image" workflow.
+3. Click "Run workflow".
+4. Enter the desired `Typesense Version` and `CUDA Version` (or use the defaults).
+5. Click "Run workflow".
 
 ## Modifying Versions
 
