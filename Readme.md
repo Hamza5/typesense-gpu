@@ -7,6 +7,7 @@ A Docker setup for running [Typesense](https://typesense.org/) with GPU support 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Service](#running-the-service)
+- [GitHub Actions](#github-actions)
 - [Modifying Versions](#modifying-versions)
 - [Environment Variables](#environment-variables)
 - [GPU Requirements](#gpu-requirements)
